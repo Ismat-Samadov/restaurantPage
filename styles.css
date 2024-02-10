@@ -1,8 +1,13 @@
-/* Styles for header and navigation */
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
+}
+
+body {
+    background-image: url('../images/img1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -22,7 +27,6 @@ button:hover {
     text-decoration: underline;
 }
 
-/* Styles for content area */
 #content {
     padding: 20px;
 }
