@@ -1,11 +1,13 @@
 {
-  "name": "restaurantpage",
+  "name": "restaurantPage",
   "version": "1.0.0",
   "description": "restaurant page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "addCommit": "git add dist images assets && git commit -m \"Initial dist subtree commit\"",
+    "push":"git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
