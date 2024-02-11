@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ -z "$1" ]
+then
+  echo "C:\Users\Ismat\restaurantPage\dist\index.html"
+  exit 1
+fi
+git subtree push --prefix $1 origin gh-pages
