@@ -2,7 +2,7 @@ export function createHomepage() {
     const contentDiv = document.getElementById('content');
 
     const image = document.createElement('img');
-    image.src = '../ images / img1.jpg';
+    // image.src = '../ images / img1.jpg';
     contentDiv.appendChild(image);
 
     const headline = document.createElement('h1');
