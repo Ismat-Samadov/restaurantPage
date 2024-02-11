@@ -4,7 +4,7 @@
     function e() {
         const e = document.getElementById("content"),
             t = document.createElement("img");
-        t.src = "images/img1.jpg", e.appendChild(t);
+        // t.src = "images/img1.jpg", e.appendChild(t);
         const n = document.createElement("h1");
         n.textContent = "Welcome to Our Restaurant!", e.appendChild(n);
         const o = document.createElement("p");
