@@ -1,9 +1,9 @@
 export function createHomepage() {
     const contentDiv = document.getElementById('content');
 
-    const image = document.createElement('img');
+    // const image = document.createElement('img');
     // image.src = '../ images / img1.jpg';
-    contentDiv.appendChild(image);
+    // contentDiv.appendChild(image);
 
     const headline = document.createElement('h1');
     headline.textContent = 'Welcome to Our Restaurant!';
